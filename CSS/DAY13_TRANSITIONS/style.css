@@ -1,0 +1,53 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+.container{
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    perspective: 800px;
+}
+.box{
+    height: 150px;
+    width: 150px;
+    background-color: orange;
+    cursor: pointer;
+    /* transform: translateY(-300px); */
+    /* transform: translate((200px,300px)); */
+    /* transform: rotate(100deg); */
+    /* transform: skewX(-30deg); */
+     /* transition-property: all;
+     transition-duration: 3s;
+    transition-timing-function: ease-in;
+    transition-delay: 2s; */
+    /* transition: all 3s ; */
+    color: wheat;
+    font-size: 25px;
+    gap: 20px;
+    margin: 20px;
+    animation-name: move;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+
+}
+.box:hover{
+    /* background-color: purple;
+    width: 300px;   */
+    /* transform: scale(1.5); */
+    /* transform: translateZ(200px); */
+    /* transform: rotate(90deg); */
+    
+}
+@keyframes move{
+    from{
+        transform: rotate(0deg);
+    }
+    to{
+        transform: rotate(360deg);
+
+    }
+}

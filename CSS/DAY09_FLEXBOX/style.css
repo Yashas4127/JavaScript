@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(12, 12, 12);
+}
+.container{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    justify-content: center;
+    align-items: center;
+    /* flex-wrap: wrap; */
+    gap: 5px;
+    
+    /* justify-content main axis ke around kaam karta hai 
+    main axis is decide kum karega ,apka flex direction
+    align items work around cross axis */
+}
+.box{
+    height: 100px;
+    width: 100px;
+    /* margin: 5px; */
+}
+.first{
+    background-color: orange;
+    /* flex-grow: 1; */
+    /* flex-basis: 200px; */
+}
+.second{
+    background-color: red;
+    /* flex-grow: 2; */
+}
+.third{
+    background-color: yellow;
+    flex-shrink: 4;
+    align-self: self-end;
+}
+.fourth{
+    background-color: purple;
+}

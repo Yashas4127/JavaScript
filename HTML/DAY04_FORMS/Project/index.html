@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DAY4</title>
+</head>
+<body>
+    <h1>University Registration Form</h1>
+    <p>Please fill out the form below to registr.</p>
+    <hr>
+
+    <h2>Personal Details</h2>
+    <form>
+        <label for="fname">First Name:</label>
+        <input type="text" placeholder="Ex Arujun" name="name" id="fname" required>
+        <br>
+        <br>
+        <label for="lname">Last Name:</label>
+        <input type="text" placeholder="Ex Sharma" name="last name" id="lname" required>
+        <br>
+        <br>
+        <label for="dob">DOB</label>
+        <input type="date" name="dob" id="dob" required>
+        <br>
+        <br>
+        <h3>Gender</h3>
+        <label for="male">Male</label>
+        <input type="radio" name="Gender" id="male" value="male">
+        <br>
+        <label for="female">Female</label>
+        <input type="radio" name="Gender" id="female" value="female">
+        <br>
+        <label for="Other">Other</label>
+        <input type="radio" name="Gender" id="Other" value="other">
+        <br>
+        <br>
+
+        <h3>Upload Your Photo</h3>
+        <input type="file" name="file" id="" required>
+        
+        <hr>
+
+        <h2>Contact Information</h2>
+        <label for="email">Email Adress:</label>
+        <input type="text" name="email" id="email" required>
+        <br>
+        <br>
+          <label for="pnum">Phone Number:</label>
+        <input type="tel" name="phone" id="pnum" required>
+        <br>
+        <br>
+        <label for="adress">Adress</label>
+        <br>
+        <textarea name="Adress" id="adress" rows="5" cols="30" required></textarea>
+
+        <hr>
+
+        <h2>Acadameic Information</h2>
+        <label for="course">Select your course :</label>
+        <select name="course" id="course">
+            <option value="CSE">CSE</option>
+            <option value="ME">ME</option>
+            <option value="CE">CE</option>
+        </select>
+        <br><br>
+
+        <h3>Extracuricular Acitvity</h3>
+        <label for="Sports">Sports:</label>
+        <input type="checkbox" name="act" id="Sports" value="Sports">
+        <br>
+        <label for="music">Music:</label>
+        <input type="checkbox" name="act" id="music" id="music">
+        <br>
+        <label for="tech">Technology:</label>
+        <input type="checkbox" name="act" id="tech" id="tech">
+        <br>
+
+        <h2>Create Your acount</h2>
+
+        <label for="pass">Craete Pass:</label>
+        <input type="password" name="pass" id="pass" required>
+        <br><br>
+           <label for="course">Security Question :</label>
+        <select name="course" id="course">
+            <option value="1">What was your childhood best friend's nickname?</option>
+            <option value="2">In which city did your parents meet?</option>
+            <option value="3">What month did you get married?</option>
+        </select>
+        <br><br>
+        
+        <label for="secu">Security Answer</label>
+        <input type="text" name="Security" id="secu">
+        <br>
+        <hr>
+        
+        <button type="submit">Register</button>
+        <button type="reset">Clear</button>
+        
+        
+
+        
+    </form>
+</body>
+</html>

@@ -1,0 +1,37 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    color: white;
+    font-size: 30px;
+}
+body{
+    background-color: black;
+}
+.container{
+    display: grid;
+    height: 600px;
+    width: 800px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 2fr 2fr 1fr;
+    gap: 10px;
+    padding: 5px;
+    margin: 5px;
+}
+.box{
+    background-color: #9d1212;
+}
+.headder{
+    grid-column-start: 1;
+    grid-column-end: 4;
+}
+.Sidebar{
+    grid-row-start: 2;
+    grid-row-end: 4;
+}
+.c1{
+    grid-column: 2/4;
+}
+.footer{
+    grid-column: 1/4;
+}

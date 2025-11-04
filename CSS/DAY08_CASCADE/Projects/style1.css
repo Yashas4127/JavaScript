@@ -1,0 +1,24 @@
+#container{
+    background-color: red;
+    height: 200px;
+    width: 300px;
+    position: relative;
+}
+#square{
+    background-color: rgb(6, 6, 108);
+    height: 100px;
+    width: 300px;
+    position: absolute;
+    top: 50px;
+
+}
+#circle{
+    background-color: #fff;
+    height: 90px;
+    width: 90px;
+    position: relative;
+    border-radius: 50%;
+    left: 100px;
+    top: 5px;
+    
+}

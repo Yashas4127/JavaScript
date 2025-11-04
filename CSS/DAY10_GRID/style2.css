@@ -1,0 +1,30 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-color: black;
+}
+.contanier{
+    height: 600px;
+    width: 800px;
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 10px;
+    padding: 5px;
+}
+.box{
+    background-color: green;
+
+}
+.a{
+    grid-row: 1/4;
+}
+.b{
+    grid-column: 2/4;
+}
+.h{
+    grid-row: 2/4;
+    grid-column: 4/5;
+}

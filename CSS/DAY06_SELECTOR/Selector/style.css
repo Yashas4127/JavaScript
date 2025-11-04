@@ -1,0 +1,40 @@
+/* Tag element selector */
+/* h1{
+    background-color: pink;
+}
+ul{
+    background-color: green;
+} */
+
+/* Based on id selector */
+/* #first{
+    background-color: blue;
+}
+#second{
+    background-color: red;
+} */
+
+
+/* Based on class selector */
+/* .third{
+    background-color: green;
+} */
+
+h1,.fourth{
+    background-color: rgb(255, 0, 0);
+}
+.third{
+    background-color: rgba(32,122,223, 40%);
+}
+h1{
+    font-size: 20px;
+}
+ul{
+    font-size: 30px;
+}
+/* li{
+    font-size: 1em;
+} */
+ li{
+    font-size: 3vh;
+ }
