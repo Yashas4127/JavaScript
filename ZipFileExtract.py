@@ -1,7 +1,7 @@
 import os
 import zipfile
 
-folder_path = r"C:\Users\yasha\Downloads\Telegram Desktop\Complete Git and GitHub Notes & Codes\Complete Git and GitHub Notes & Codes"
+folder_path = r"" #Add your path here 
 
 def extract_all_zips(directory):
     extracted_any = False
