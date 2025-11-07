@@ -6,3 +6,5 @@ const element = React.createElement("h1",{},"Hello Coder Army");
 const Reactroot = ReactDOM.createRoot(document.getElementById('root'));
 // React root container: is
 Reactroot.render(element);
+
+//CDN: Content delivery network
